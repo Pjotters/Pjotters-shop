@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload your App - Pjotters-Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Pjotters-Shop</h1>
+            <p>De beste gratis apps voor jouw iPhone</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pjotters-app.html">Pjotters-App</a></li>
+                <li><a href="upload-your-app.html">Upload your App</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="upload-app">
+        <h2>Upload je App</h2>
+        <p>Wil je dat jouw app beschikbaar is in de Pjotters-Shop? Vul het onderstaande formulier in om je app te uploaden.</p>
+        
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <label for="app-name">Naam van je App:</label>
+            <input type="text" id="app-name" name="app-name" required>
+
+            <label for="app-description">Beschrijving:</label>
+            <textarea id="app-description" name="app-description" required></textarea>
+
+            <label for="app-file">Upload je App (bijv. .ipa bestand):</label>
+            <input type="file" id="app-file" name="app-file" accept=".ipa" required>
+
+            <button type="submit" class="cta-button">Upload App</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Pjotters-Shop. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
